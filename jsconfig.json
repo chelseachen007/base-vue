@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "@assets/*": ["./src/assets/*"],
+            "@com/*": ["./src/components/*"],
+            "@img/*": ["./src/images/*"],
+            "@style/*": ["./src/assets/scss/*"],
+            "@unit/*": ["./src/unit/*"],
+
+        }
+    },
+    "exclude": ["node_modules"]
+}
