@@ -50,7 +50,7 @@ function isArrayBuffer(val) {
   return toString.call(val) === "[object ArrayBuffer]";
 }
 
-/**
+/** 
  * 判断是否为 FormData
  *
  * @param {Object} val The value to test

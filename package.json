@@ -6,11 +6,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "inspect":"vue-cli-service inspect --mode development >> webpack.config.development.js",
-    "inspectpro":"vue-cli-service inspect --mode production >> webpack.config.production.js"
+    "inspect": "vue-cli-service inspect --mode development >> webpack.config.development.js",
+    "inspectpro": "vue-cli-service inspect --mode production >> webpack.config.production.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "element-ui": "^2.13.2",
     "moment": "^2.24.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
