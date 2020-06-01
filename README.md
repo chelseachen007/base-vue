@@ -1,5 +1,8 @@
 # basevue
 
+Vue项目模版
+
+
 ## Project setup
 ```
 npm install
