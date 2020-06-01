@@ -1,7 +1,7 @@
 import '@style/common.scss'
 import '@style/reset.scss'
 import echarts from "echarts"
-import axios from '@utils/http/request'
+import axios from '@utils/axios'
 // import moment from 'moment'
 // monent.locale('zh-cn'); //中文
 export default {

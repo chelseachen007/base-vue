@@ -18,13 +18,14 @@
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-      name: "home",
+  name: "home",
   components: {
-    HelloWorld,
-  },  
-        methods: {
-    
+    HelloWorld
   },
+  methods: {},
+  mounted(){
+    console.log('1111111111111111')
+  }
 };
 </script>
 <style lang="scss" scoped>

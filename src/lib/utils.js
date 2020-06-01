@@ -147,7 +147,7 @@ function isFunction(val) {
 }
 
 /**
- * Determine if a value is a Stream
+ * 判断是否为 Stream
  *
  * @param {Object} val The value to test
  * @returns {boolean} True if value is a Stream, otherwise false
@@ -178,29 +178,6 @@ function trim(str) {
   return str.replace(/^\s*/, "").replace(/\s*$/, "");
 }
 
-/**。
- *确定我们是否在标准浏览器环境中运行。
- *网络工作者：
- *窗口类型->未定义。
- *单据类型->未定义。
- *。
- *Reaction-Native：
- *Navigator.product->‘ReactNative’
- *原稿。
- *Navigator.product->‘NativeScript’或‘NS’
- */
-function isStandardBrowserEnv() {
-  if (
-    typeof navigator !== "undefined" &&
-    (navigator.product === "ReactNative" ||
-      navigator.product === "NativeScript" ||
-      navigator.product === "NS")
-  ) {
-    return false;
-  }
-  return typeof window !== "undefined" && typeof document !== "undefined";
-}
-
 module.exports = {
   isArray,
   isArrayBuffer,
@@ -217,6 +194,5 @@ module.exports = {
   isFunction,
   isStream,
   isURLSearchParams,
-  isStandardBrowserEnv,
   trim
 };

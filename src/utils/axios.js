@@ -1,6 +1,4 @@
 import axios from 'axios'
-// import ipadress from '/ipadress'
-// import config from '../config/index' // 路径配置// 创建axios 实例
 const ipaddress = modeUrlObj[process.env.NODE_ENV]
 const service = axios.create({
     baseURL: ipaddress.baseURL, // api的base_url
