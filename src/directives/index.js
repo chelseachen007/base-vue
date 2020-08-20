@@ -1,3 +1,4 @@
+import drag from "./drag";
 import { debounce as _debounce } from "lodash";
 const DEFAULT_TIME = 3000;
 
@@ -11,5 +12,5 @@ export const debounce = {
     } else {
       el.addEventListener(arg, _debounce(value, duration));
     }
-  }
+  },
 };

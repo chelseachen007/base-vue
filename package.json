@@ -10,6 +10,7 @@
     "inspectpro": "vue-cli-service inspect --mode production >> webpack.config.production.js"
   },
   "dependencies": {
+    "compression-webpack-plugin": "^5.0.0",
     "core-js": "^2.6.5",
     "element-ui": "^2.13.2",
     "moment": "^2.24.0",
